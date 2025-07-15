@@ -1,0 +1,18 @@
+@use "../../../shared/styles/constants.module" as *;
+
+.spinner {
+  width: 1em;
+  height: 1em;
+  border: 2px solid $DARK_GRAY;
+  border-top-color: $WHITE;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

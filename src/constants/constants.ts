@@ -1,4 +1,4 @@
-export const API_URL = 'https://fakestoreapi.com/products';
+export const API_URL = 'https://dummyjson.com';
 
 
 export const SHOP_NAME = 'Abelohost shop';

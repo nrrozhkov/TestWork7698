@@ -1,4 +1,4 @@
-@import "../../shared/styles/constants.module";
+@use "../../shared/styles/constants.module" as *;
 
 .footer {
   display: flex;
@@ -7,4 +7,11 @@
   justify-content: flex-end;
   background-color: $BLACK;
   color: $WHITE;
+
+  .info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 0.25em;
+  }
 }

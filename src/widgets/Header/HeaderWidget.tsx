@@ -5,6 +5,7 @@ import styles from './header.module.scss';
 import {SHOP_ADDRESS, SHOP_EMAIL, SHOP_NAME, SHOP_TEL} from "@/constants/constants";
 import {PAGES} from "@/config/pages.config";
 import Container from "@/shared/ui/Container/Container";
+import AuthWidget from "@/widgets/AuthWidget/AuthWidget";
 
 const HeaderWidget = () => {
     return (
@@ -26,7 +27,7 @@ const HeaderWidget = () => {
 
                         </Link>
                     </div>
-                    <div className={styles.contacts__login}><Link href={PAGES.LOGIN}>Logout</Link></div>
+                    <AuthWidget />
                 </div>
             </Container>
             <div className={styles.header__title}>

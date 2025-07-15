@@ -1,0 +1,22 @@
+@use "../../shared/styles/constants.module" as *;
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  button {
+    display: flex;
+    background-color: $DARK_GRAY;
+    color: $WHITE;
+    border: 1px solid $WHITE;
+    border-radius: 2px;
+    padding: 0.25em;
+
+    .text {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}

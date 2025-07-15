@@ -4,30 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46518472-2ec7-425a-813f-8cf55f7bb9d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(public)/login/login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(public)/login/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(public)/mainLayout.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ProductCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/spinner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/pages.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/ui/LoginForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/auth/ui/loginform.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/data/tweets.data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/styles/constants.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/types/product.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/types/tweet.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Container/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/Container/container.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/Footer/FooterWidget.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/Footer/footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/Header/HeaderWidget.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/Header/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/MenuWidget/MenuWidget.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widgets/MenuWidget/menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    <list default="true" id="46518472-2ec7-425a-813f-8cf55f7bb9d5" name="Changes" comment="deleted files">
+      <change afterPath="$PROJECT_DIR$/src/app/api/login/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/logout/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/products/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/providers/AuthProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/product/Product.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/product/product.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/auth/store/useAuth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/apiRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/helpers/getBaseUrl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/helpers/getUserFromToken.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/types/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/types/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Spinner/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/Spinner/spinner.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/AuthWidget/AuthWidget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/AuthWidget/authWidget.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/ProductListWidget/ProductListWidget.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/widgets/ProductListWidget/productList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/(home)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/(home)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(public)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(public)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ProductCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/spinner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/auth/ui/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/ui/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/auth/ui/loginform.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/auth/ui/login-form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/styles/constants.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/styles/constants.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Footer/FooterWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Footer/FooterWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Header/HeaderWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Header/HeaderWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/Header/header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/Header/header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widgets/MenuWidget/menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/widgets/MenuWidget/menu.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +72,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -97,11 +110,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/shared/ui/Container" />
-      <recent name="$PROJECT_DIR$/src/widgets" />
-      <recent name="$PROJECT_DIR$/src/shared/styles" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/middlewares" />
+      <recent name="$PROJECT_DIR$/src/widgets/AuthWidget" />
+      <recent name="$PROJECT_DIR$/src/widgets/ProductListWidget" />
+      <recent name="$PROJECT_DIR$/src/entities/product" />
+      <recent name="$PROJECT_DIR$/src/shared/ui" />
+      <recent name="$PROJECT_DIR$/src/features/userInfo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -158,8 +171,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752513513718</updated>
-      <workItem from="1752513514750" duration="16783000" />
+      <workItem from="1752513514750" duration="33902000" />
     </task>
+    <task id="LOCAL-00001" summary="Init markup">
+      <option name="closed" value="true" />
+      <created>1752601025258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601025258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleted files">
+      <option name="closed" value="true" />
+      <created>1752601038114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752601038114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,5 +205,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init markup" />
+    <MESSAGE value="deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted files" />
   </component>
 </project>
