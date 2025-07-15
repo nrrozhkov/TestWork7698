@@ -1,0 +1,10 @@
+@import "../../shared/styles/constants.module";
+
+.footer {
+  display: flex;
+  text-align: end;
+  padding: 1.5em;
+  justify-content: flex-end;
+  background-color: $BLACK;
+  color: $WHITE;
+}

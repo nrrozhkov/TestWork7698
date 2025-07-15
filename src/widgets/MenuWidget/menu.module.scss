@@ -1,0 +1,15 @@
+@import "../../shared/styles/constants.module";
+
+.menu {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  background-color: $WHITE;
+  color: $DARK_GRAY;
+  padding: 0.5em;
+  border-bottom: 1px solid $DARK_GRAY;
+
+  .item {
+    text-decoration: underline;
+  }
+}
